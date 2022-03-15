@@ -1,0 +1,33 @@
+<p>employee-list works!</p>
+<table class="table table-bordered">
+    <thead class="text-success">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">uname</th>
+        <th scope="col">umail</th>
+        <th scope="col">mobile</th>
+        <th scope="col">designation</th>
+        <th scope="col">username</th>
+        <th scope="col">password</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete </th>
+      </tr>
+    </thead>
+    <tbody class="text-success">
+      <tr *ngFor="let em of emp">
+        <td>{{em.id}}</td>
+        <td>{{em.uname}}</td>
+        <td>{{em.umail}}</td>
+        <td>{{em.mobile}}</td>
+        <td>{{em.designation}}</td>
+        <td>{{em.username}}</td>
+        <td>{{em.password}}</td>
+        <td><a [routerLink]="['employeedetail',em.id]">show details</a>
+        <a class="btn" [routerLink]="['update']" [state]="em"><i class="fa fa-edit"></i></a>
+        </td>
+        <td ><input type="button" value="delete" (click)="deletedata(em.id)"></td>
+      </tr>
+    </tbody>
+  </table>
+  <router-outlet></router-outlet>
+  <a routerLink="employeedetail"></a>

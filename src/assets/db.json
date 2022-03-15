@@ -1,0 +1,87 @@
+{
+  "Employee": [
+    {
+      "id": 2,
+      "uname": "Sumit",
+      "umail": "sumit@gmail.com",
+      "mobile": "9588666",
+      "designation": "prof",
+      "username": "sumit",
+      "password": "sumit"
+    },
+    {
+      "id": 3,
+      "uname": "Sanket",
+      "umail": "sanket@gmail.com",
+      "mobile": "9588666",
+      "designation": "ceo",
+      "username": "sanket",
+      "password": "sanket"
+    },
+    {
+      "id": 4,
+      "uname": "Sanjay",
+      "umail": "sanjay@gmail.com",
+      "mobile": "958867566",
+      "designation": "Peon",
+      "username": "sanjay",
+      "password": "sanjay"
+    },
+    {
+      "id": 5,
+      "uname": "Vishal",
+      "umail": "vishal@gmail.com",
+      "mobile": "95886666",
+      "designation": "Visitor",
+      "username": "vishal",
+      "password": "vishal"
+    },
+    {
+      "id": 6,
+      "uname": "Vijay",
+      "umail": "vijay@gmail.com",
+      "mobile": "9588665",
+      "designation": "Lect",
+      "username": "vijay",
+      "password": "vijay"
+    }
+  ],
+  "Company": [
+    {
+      "id": 0,
+      "cname": "abc",
+      "email": "abc",
+      "clocation": "abc",
+      "ctype": "abc",
+      "cperson": "abc",
+      "mobile": "9855"
+    },
+    {
+      "id": 1,
+      "cname": "T S Madhav and Co",
+      "email": "tscorning@rediffmail.com",
+      "clocation": "Karve Nagar",
+      "ctype": "Supply",
+      "cperson": "Gautam",
+      "mobile": "95888"
+    },
+    {
+      "id": 2,
+      "cname": "Matuchaya Dairy",
+      "email": "rushi@gmail.com",
+      "clocation": "Chandrapur",
+      "ctype": "Milk Product",
+      "cperson": "Rushikesh",
+      "mobile": "95888"
+    },
+    {
+      "id": 3,
+      "cname": "ITravel",
+      "email": "itravel@gmail.com",
+      "clocation": "India",
+      "ctype": "Traveling",
+      "cperson": "Sanjay",
+      "mobile": "95888"
+    }
+  ]
+}

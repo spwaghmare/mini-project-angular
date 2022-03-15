@@ -1,0 +1,26 @@
+
+<form [formGroup]="loginform" (ngSubmit)=" logindata()"> 
+<div class="page-wrapper">
+    <div class="authentication-box">
+        <div class="row">
+            <div class="col-md-2  p-0 card-right"></div>
+            <div class="col-md-8 p-0 card-right">
+                <div class="card body">
+                    <h2 align="center">Login Here</h2>
+                    UserName <input type="text" placeholder="username" formControlName="username"><br>
+                    Password <input type="text" placeholder="password" formControlName="password"><br>
+                    <button class="btn btn-primary" >Login</button>
+                </div>
+            </div>
+            <div class="col-md-2  p-0 card-left"></div>
+        </div>
+    </div>
+</div>
+</form>
+<div align="center">
+    <a routerLink="register">click here to register</a>
+</div>
+ <div align="center">
+    <a routerLink="register-company">click to register company</a>
+ </div>
+

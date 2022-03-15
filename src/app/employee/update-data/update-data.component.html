@@ -1,0 +1,19 @@
+<p>update-data works!</p>
+<div>
+    <form [formGroup]="updateform">
+    <table align="center" style="border: 2; background-color: burlywood; text-align: center; color:red;">
+        <tr><td>Id </td> <td><input type="text" formControlName="id"></td></tr>
+        <tr><td> Name</td> <td><input type="text" formControlName=uname></td></tr>
+        <tr><td>Mail Id </td> <td><input type="text" formControlName=umail></td></tr>
+        <tr><td>Mobile</td> <td><input type="text" formControlName=mobile></td></tr>
+        <tr><td>Designation </td> <td><input type="text" formControlName=designation></td></tr>
+        <tr><td>UserName </td> <td><input type="text" formControlName=username></td></tr>
+        <tr><td>Password </td> <td><input type="text" formControlName=password></td></tr>
+        <tr><td> <button type="button" (click)="back()">back</button> </td> 
+            <td><button type="button" (click)="updatedata()">update</button> 
+                
+            </td>
+        </tr>
+    </table>
+    </form>
+    </div>

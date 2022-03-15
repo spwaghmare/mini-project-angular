@@ -1,0 +1,14 @@
+<p>company-details works!</p>
+<div>
+    <table align="center" style="border: 2; background-color: burlywood; text-align: center; color:red;">
+        <tr><td>Id </td> <td><input type="text" placeholder="Company Id" value="{{cmp.id}}"></td></tr>
+        <tr><td>Company Name</td> <td><input type="text" placeholder="Company Name" value="{{cmp.cname}}"></td></tr>
+        <tr><td>Mail Id </td> <td><input type="text" placeholder="Company Mail ID" value="{{cmp.email}}"></td></tr>
+        <tr><td>Mobile</td> <td><input type="text" placeholder="mobile" value="{{cmp.mobile}}"></td></tr>
+        <tr><td>Details </td> <td><input type="text" placeholder="company Location" value="{{cmp.clocation}}"></td></tr>
+        <tr><td>Type </td> <td><input type="text" placeholder="company type" value="{{cmp.ctype}}"></td></tr>
+        <tr><td>Person </td> <td><input type="text" placeholder="contact person" value="{{cmp.cperson}}"></td></tr>
+        <tr><td><button type="button" (click)="back()">back</button> </td> <td><button type="button" [disabled]="true">update</button> </td></tr>
+    </table>
+    </div>
+    <router-outlet></router-outlet>
